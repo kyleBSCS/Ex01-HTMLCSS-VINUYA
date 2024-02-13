@@ -20,6 +20,7 @@ nav img{
     width: 50px;
     height: 50px;
     margin: 1rem;
+    filter: invert(1);
 }
 
 nav .buttons{
@@ -102,6 +103,8 @@ hr {
     border-radius: 1rem;
     justify-content: center;
     font-weight: 800;
+    position: relative;
+    overflow: hidden;
 }
 
 /* CSS FOR BOTTOM SECTION */
@@ -127,7 +130,7 @@ hr {
 .bottom .item {
     display: flex;
     flex-direction: column;
-    background-color: #778da9;
+    background-color: #3a506c;
     color: white;
     gap: 1rem;
     padding-top: 1rem;
@@ -154,6 +157,7 @@ footer {
 footer .logo img{
     width: 50px;
     height: 50px;
+    filter: invert(1);
 }
 
 footer .text {
