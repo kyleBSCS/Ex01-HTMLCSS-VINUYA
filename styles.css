@@ -15,6 +15,7 @@ nav {
     margin-bottom: 20px;
 }
 
+/* For main content */
 .container {
     display: flex;
     flex-direction: column;
@@ -22,6 +23,7 @@ nav {
     align-items: center;
 }
 
+/* CSS FOR TOP SECTION */
 .top {
     display: flex;
     flex-direction: column;
@@ -47,6 +49,7 @@ nav {
     border-radius: 1rem;
 }
 
+/* CSS FOR MIDDLE SECTION */
 .middle {
     margin-top: 20px;
     display: flex;
@@ -72,6 +75,7 @@ nav {
     border-radius: 1rem;
 }
 
+/* CSS FOR BOTTOM SECTION */
 .bottom {
     display: flex;
     width: 90vw;
@@ -103,6 +107,7 @@ nav {
     border-radius: 1rem;
 }
 
+/* CSS FOR FOOTER */
 footer {
     display: flex;
     align-items: center;
