@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    height: 100px;
+    height: 80px;
     background-color: #0d1b2a;
     margin-bottom: 20px;
 }
@@ -61,6 +61,9 @@ nav {
 }
 
 .middle .gallery .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-width: 100px;
     height: 100px;
     flex-grow: 1;
@@ -73,21 +76,30 @@ nav {
     display: flex;
     width: 90vw;
     justify-content: center;
-    gap: 1rem;
+    align-items: center;
 }
 
 .bottom .box{
     display: flex;
     flex-direction: column;
     align-items: center;    
-    flex-grow: 1;
+    min-width: 300px;
+}
+
+.bottom .box.auto {
+    width: 100%;
 }
 
 .bottom .item {
+    display: flex;
+    flex-direction: column;
     background-color: #778da9;
-    width: 100%;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     height: 300px;
-    margin: .5rem;
+    margin-top: .5rem;
     border-radius: 1rem;
 }
 
